@@ -30,13 +30,15 @@ function draw(){
     background("white");
     Engine.update(engine);
     
+    text("Press the up arrow key to launch",600,100);
+    
     ground.display();
     paper.display();
     binPart1.display();
     binPart2.display();
     binPart3.display(); 
     
-    restart();
+    //restart();
     drawSprites();
 }
 
@@ -46,8 +48,8 @@ function keyPressed(){
     }
 }
 
-function restart(){
-    if(keyCode === 32){
-        paper.position.x = 250;
-    }
-}
+// function restart(){
+//     if(keyCode === 32){
+//         paper.position.x = 250;
+//     }
+// }
