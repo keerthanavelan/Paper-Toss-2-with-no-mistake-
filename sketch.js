@@ -35,7 +35,8 @@ function draw(){
     binPart1.display();
     binPart2.display();
     binPart3.display(); 
-      
+    
+    restart();
     drawSprites();
 }
 
