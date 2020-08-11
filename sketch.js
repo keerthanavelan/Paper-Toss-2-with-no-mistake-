@@ -44,3 +44,9 @@ function keyPressed(){
         Matter.Body.applyForce(paper.body,paper.body.position,{x:74,y:-75});
     }
 }
+
+function restart(){
+    if(keyCode === 32){
+        paper.position.x = 250;
+    }
+}
